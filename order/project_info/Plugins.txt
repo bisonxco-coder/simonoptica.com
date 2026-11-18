@@ -1,0 +1,55 @@
+---To install a plugin:
+
+1. Create new plugin installer file inside of /plugins/{name_of_plugin_}installer.json. 
+    The file must end with 'installer.json'. For example: lensware_plugin_template_installer.json
+    Example when package is located on disk:
+    {
+        "require": {
+            "lensware/lensware-plugin-template": "dev-main"
+        },
+        "repositories": [   
+            {
+                "type": "path",
+                "url": "../lenswareplugins/lensware-plugin-template"
+            }
+        ]
+    }
+    Example when package is on a version controll system (vcs):
+    {
+        "require": {
+            "lensware/lensware-plugin-template": "dev-main"
+        },
+        "repositories": [   
+            {
+                "type": "vcs",
+                "url": "git@gitlab.com:l2814/lensware-plugin-template.git"
+            }
+        ]
+    }
+
+2. 'composer update --lock' 
+    to update the composer.lock file with the new plugin.
+
+3. 'composer update {vendorname}/{packagename}'
+    to install the plugin. 
+    If successfull, you will notice the installed package in the vendor/ folder (For the above example: lensware/lensware-plugin-template).
+    For the above example you would run: 'composer update lensware/lensware-plugin-template' 
+
+----------------------
+---To remove a plugin:
+
+1. Remove/delete the plugin installer file from the plugins/ folder.
+    For the above example: lensware_plugin_template_installer.json
+
+2. 'composer remove/update {vendorname}/{packagename}'
+    to remove the package from the app.
+    If successfull, you will notice the installed package is no longer in the vendor/ folder.
+    For the above example you would run: 'composer remove lensware/lensware-plugin-template' 
+
+3. 'composer update --lock'
+    to remove the plugin from the composer.lock file.
+
+----------------------
+---To test a plugin:
+1. 'php artisan test --configuration {locaiton of plugin phpunit.xml file}'
+    For the above example you would run: 'php artisan test --configuration vendor/lensware/lensware-plugin-template/phpunit.xml'

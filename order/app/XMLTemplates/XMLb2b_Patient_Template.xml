@@ -1,0 +1,20 @@
+<patient>
+   <id></id>
+   <address>
+      <addressLine>#consStreet#</addressLine>
+      <city>#consCity#</city>
+      <zip>#consZip#</zip>
+   </address>
+   <contact>
+      <title>#consTitle#</title>
+      <firstName>#consFirstName#</firstName>
+      <lastName>#consLastName#</lastName>
+      <phone>#consPhone#</phone>
+	  <eMail>#consEMail#</eMail>
+      <language>#consLang#</language>
+   </contact>
+   <dateOfBirth>#consDateOfBirth#</dateOfBirth>
+   <nearObjectDistance>#nearObjectDistance#</nearObjectDistance>
+   <headInclination>#headInclination#</headInclination>
+   <headTilt>#headTilt#</headTilt>
+</patient>

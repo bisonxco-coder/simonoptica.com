@@ -1,0 +1,281 @@
+{
+  "Rectype": [
+    {
+      "Key": "Param1",
+      "Text": "Standard",
+      "Value": "0",
+      "Default": "1",
+      "LangCode": "7017"
+    },
+    {
+      "Key": "Param2",
+      "Text": "Formranden",
+      "Value": "1",
+      "Default": "0",
+      "LangCode": "101291"
+    },
+    {
+      "Key": "Param3",
+      "Text": "Verglasen",
+      "Value": "2",
+      "Default": "0",
+      "LangCode": "60"
+    },
+    {
+      "Key": "Param4",
+      "Text": "Brille",
+      "Value": "3",
+      "Default": "0",
+      "LangCode": "7"
+    }
+  ],
+  "Material": [
+    {
+      "Key": "Param1",
+      "Text": "Organisch",
+      "Value": "2",
+      "Default": "1",
+         "LangCode": "178"
+    },
+    {
+      "Key": "Param2",
+      "Text": "Poly",
+      "Value": "3",
+      "Default": "0",
+         "LangCode": "28"
+    },
+    {
+      "Key": "Param2",
+      "Text": "Trivex",
+      "Value": "4",
+      "Default": "0",
+         "LangCode": "176"
+    },
+    {
+      "Key": "Param3",
+      "Text": "Mineralisch",
+      "Value": "1",
+      "Default": "0",
+         "LangCode": "25"
+    }
+  ],
+  "Index": [
+    {
+      "Key": "Param1",
+      "Text": "1.50",
+      "Value": "15000",
+      "Default": "1",
+      "Material": "1,2"
+    },
+    {
+      "Key": "Param2",
+      "Text": "1.53",
+      "Value": "15300",
+      "Default": "0",
+      "Material": "4"
+    },
+    {
+      "Key": "Param3",
+      "Text": "1.56",
+      "Value": "15600",
+      "Default": "0",
+      "Material": "2"
+    },
+    {
+      "Key": "Param4",
+      "Text": "1.59",
+      "Value": "15900",
+      "Default": "0",
+      "Material": "3"
+    },
+    {
+      "Key": "Param5",
+      "Text": "1.60",
+      "Value": "16000",
+      "Default": "0",
+      "Material": "1,2"
+    },
+    {
+      "Key": "Param6",
+      "Text": "1.67",
+      "Value": "16700",
+      "Default": "0",
+      "Material": "2"
+    },
+    {
+      "Key": "Param7",
+      "Text": "1.70",
+      "Value": "17000",
+      "Default": "0",
+      "Material": "1"
+    },
+    {
+      "Key": "Param8",
+      "Text": "1.74",
+      "Value": "17400",
+      "Default": "0",
+      "Material": "2"
+    },
+    {
+      "Key": "Param9",
+      "Text": "1.80",
+      "Value": "18000",
+      "Default": "0",
+      "Material": "1"
+    },
+    {
+      "Key": "Param10",
+      "Text": "1.90",
+      "Value": "19000",
+      "Default": "0",
+      "Material": "1"
+    }
+  ],
+  "Special": [
+    {
+      "Key": "Param1",
+      "Text": "",
+      "Value": "X",
+      "Default": "0",
+      "Material": "1,2,3,4",
+      "LangCode": ""
+    },
+    {
+      "Key": "Param2",
+      "Text": "White",
+      "Value": "",
+      "Default": "0",
+      "Material": "2,3,4",
+      "LangCode": "12787"
+    },
+    {
+      "Key": "Param3",
+      "Text": "Photochromic",
+      "Value": "T",
+      "Default": "0",
+      "Material": "2,3,4",
+      "LangCode": "10272"
+    },
+    {
+      "Key": "Param4",
+      "Text": "Polarisierend",
+      "Value": "P",
+      "Default": "0",
+      "Material": "2,3,4",
+      "LangCode": "177"
+    },
+    {
+      "Key": "Param5",
+      "Text": "Pol. + Photo.",
+      "Value": "TP",
+      "Default": "0",
+      "Material": "2,3,4",
+      "LangCode": "19057"
+    },
+    {
+      "Key": "Param6",
+      "Text": "UV",
+      "Value": "UV",
+      "Default": "0",
+      "Material": "1,2,3,4",
+      "LangCode": "19057"
+    }
+  ],
+  "Group": [
+    {
+      "Key": "Param1",
+      "Text": "Einstaerken",
+      "Value": "S",
+      "Default": "1",
+      "LangCode": "10"
+    },
+    {
+      "Key": "Param5",
+      "Text": "Office",
+      "Value": "O",
+      "Default": "0",
+      "LangCode": "89"
+    },
+    {
+      "Key": "Param4",
+      "Text": "Gleitsicht",
+      "Value": "P",
+      "Default": "0",
+      "LangCode": "18"
+    },
+    {
+      "Key": "Param2",
+      "Text": "Bifokal",
+      "Value": "B",
+      "Default": "0",
+      "LangCode": "185"
+    },
+    {
+      "Key": "Param3",
+      "Text": "SV Freeform",
+      "Value": "Q",
+      "Default": "0",
+      "LangCode": ""
+    }
+  ],
+  "Type": [
+    {
+      "Key": "Param1",
+      "Text": "FF Standard",
+      "Value": "F",
+      "Default": "0"
+    },
+    {
+      "Key": "Param2",
+      "Text": "FF Individual",
+      "Value": "I",
+      "Default": "0"
+    },
+    {
+      "Key": "Param3",
+      "Text": "Conventional",
+      "Value": "C",
+      "Default": "0"
+    }
+  ],
+  "Usage": [
+    {
+      "Key": "Param1",
+      "Text": "Sport",
+      "Value": "S",
+      "Default": "0"
+    },
+    {
+      "Key": "Param2",
+      "Text": "Office",
+      "Value": "O",
+      "Default": "0"
+    }
+  ],
+  "Design": [
+    {
+      "Key": "Param1",
+      "Text": "UltraShort",
+      "Value": "U",
+      "Default": "0"
+    },
+    {
+      "Key": "Param2",
+      "Text": "ExtraShort",
+      "Value": "E",
+      "Default": "0"
+    },
+    {
+      "Key": "Param3",
+      "Text": "Short",
+      "Value": "S",
+      "Default": "0"
+    },
+    {
+      "Key": "Param4",
+      "Text": "Regular",
+      "Value": "R",
+      "Default": "0"
+    }
+  ]
+}

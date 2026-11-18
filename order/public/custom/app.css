@@ -1,0 +1,6 @@
+.login-logo, .header-logo{
+   background-image:none !important;
+}
+.login-banner-image, .login-banner {
+    background-image: url(/custom/cvx2.png?ca97d86ffdbf45ce5371a052ea3596b8);
+}

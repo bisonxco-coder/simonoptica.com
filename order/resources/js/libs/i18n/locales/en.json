@@ -1,0 +1,31 @@
+{
+  "authentication": {
+    "forgot_password": "Forgot password?",
+    "label_email": "Email",
+    "label_name": "Name",
+    "label_login": "Login",
+    "label_logout": "Logout",
+    "label_password": "Password",
+    "label_register": "Register",
+    "label_remember_me": "Remember me",
+    "label_terms": "I agree to the terms and conditions",
+    "label_username": "Username",
+    "placeholder_email": "john{'@'}example.com",
+    "placeholder_name": "John",
+    "placeholder_password": "Password",
+    "placeholder_username": "Username",
+    "please_login": "Please login to your account",
+    "register_your_account": "Register your account",
+    "welcome": "Welcome to LensWare",
+    "error": {
+      "error": "Error",
+      "email": "Please enter email",
+      "name": "Please enter name",
+      "password": "Please enter password",
+      "submit_error": "There has been an error logging in, please check credentials and try again.",
+      "submit_register_error": "There has been an error signing up, please check you data and try again.",
+      "terms": "You must agree to the terms and conditions",
+      "username": "Please enter username"
+    }
+  }
+}

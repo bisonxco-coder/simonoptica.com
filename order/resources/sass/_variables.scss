@@ -1,0 +1,23 @@
+$body-background-color: #F5F7F9;
+$dark-text-color: #121630;
+$hover-color: #8BB2DD;
+$selected-color: #00569C;
+$focus-color: #00569C;
+$disabled-color: #121630;
+$app-layout-side-padding: 8%;
+
+$fast-transition: 0.05s;
+$slow-transition: 0.2s;
+
+// hex to filter: https://codepen.io/sosuke/pen/Pjoqqp
+$icon-hover-color-filter: invert(69%) sepia(56%) saturate(245%) hue-rotate(173deg) brightness(89%) contrast(95%);
+$icon-selected-color-filter: invert(18%) sepia(88%) saturate(2706%) hue-rotate(192deg) brightness(92%) contrast(102%);
+
+$panel-switch-size: 1.5;
+$panel-radio-size: 1.5;
+$panel-checkbox-size: 1.5;
+$panel-checkbox-small-size: 1;
+$panel-table-hover-color: #8BB2DD;
+$panel-table-selected-color: #00569C;
+$panel-table-waiting-color: #000000;
+$panel-table-request-color: #fabebe;

@@ -1,0 +1,65 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+  * @intlify/core-base v9.1.9
+  * (c) 2021 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * @intlify/devtools-if v9.1.9
+  * (c) 2021 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * @intlify/runtime v9.1.9
+  * (c) 2021 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * @intlify/vue-devtools v9.1.9
+  * (c) 2021 kazuya kawaguchi
+  * Released under the MIT License.
+  */
+
+/*!
+  * Bootstrap v5.1.3 (https://getbootstrap.com/)
+  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+
+/*!
+  * vue-cookie-next v1.3.0
+  * (c) 2021 Anish George
+  * @license MIT
+  */
+
+/*!
+  * vue-router v4.0.14
+  * (c) 2022 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
+ */
+
+/*! https://mths.be/punycode v1.3.2 by @mathias */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */

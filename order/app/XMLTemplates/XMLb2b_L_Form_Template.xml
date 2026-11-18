@@ -1,0 +1,20 @@
+<lens quantity="0" side="LEFT">
+   <commercialCode/>
+   <rxData>
+      <sphere>0.00</sphere>
+   </rxData>
+   <centration>
+      <monocularCentrationDistance reference="FAR">#pdR#</monocularCentrationDistance>
+      <height reference="FAR" referenceHeight="OVERBOX">#heightR#</height>
+   </centration>
+   <geometry>
+      <diameter>
+         <physical>0</physical>
+         <elliptic>false</elliptic>
+      </diameter>
+      <decentration>
+         <horizontal></horizontal>
+         <vertical></vertical>
+      </decentration>
+   </geometry>
+</lens>

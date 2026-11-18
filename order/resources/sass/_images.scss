@@ -1,0 +1,34 @@
+.login-banner-image{
+    background-image: url("~/images/iconebulle.png");
+}
+.logo-image{
+    background-image: url("~/images/logo_lensware.png");
+}
+
+.image-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+}
+
+.header-logo {
+    @extend .logo-image, .image-container;
+
+    height: 40px;
+    width: 108px;
+}
+
+.login-logo {
+    @extend .logo-image, .image-container;
+
+    height: 50px;
+    width: 135px;
+}
+
+.login-banner {
+    @extend .login-banner-image, .image-container;
+
+    scale: 0.7;
+}
+

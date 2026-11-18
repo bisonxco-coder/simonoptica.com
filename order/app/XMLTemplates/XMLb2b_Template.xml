@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<b2bOptic>
+   <header msgType="ORDER" msgState="NEW">
+      <customersOrderId>#customersOrderId#</customersOrderId>
+      <distributorsOrderId />
+      <timeStamps>
+         <dateTime step="CREATE">#dateTime#</dateTime>
+      </timeStamps>
+      <orderParties role="ORIGINATOR">
+         <id>#customerID#</id>
+      </orderParties>
+      <software typeOf="ORIGINATOR">
+         <name>#appnamexml#</name>
+         <version>#version#</version>
+      </software>
+      <productCatalog>
+         <name>sf6</name>
+         <release />
+      </productCatalog>
+      <portalOrderId />
+      #entryUser#
+   </header>
+   <items>
+      <item>
+         <remark>#remark#</remark>
+         <referenceNo>#reference#</referenceNo>
+         <requestedDate>#reqDelv#</requestedDate>
+         <manufacturer />
+         <pair>
+            #PatientTemplate#
+            #RTemplate#
+            #LTemplate#
+            #frameTemplate#
+            #edgeTemplate#
+         </pair>
+      </item>
+   </items>
+   <experimental>
+		#consRes1Node#
+		#consRes2Node#		
+		#remarkEdging#
+   </experimental>
+</b2bOptic>

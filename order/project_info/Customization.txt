@@ -1,0 +1,19 @@
+For every file, that end with ".custom", you can copy the file in the same folder, remove ".custom" and
+start overriding.
+Currently the following items are available to change:
+
+CSS: 
+    copy public/custom/app.css.custom file to public/custom/app.css to start overriding the main css classes.
+    Images: All images are defined with background-image CSS propetry with classes so you can override the url.
+
+Favicon:
+    add favicon.ico file to folder to override the default favicon.
+
+Javascript: 
+    copy public/custom/app.js.custom file to public/custom/app.js to add custom javascript.
+
+RecType:
+    copy resources/js/JSON/custom/RecType.json.custom to resources/js/JSON/custom/RecType.json to start overriding.
+
+Formen:
+    copy storage/app/Formen/custom/index.json.custom to storage/app/Formen/custom/index.json to start overriding.

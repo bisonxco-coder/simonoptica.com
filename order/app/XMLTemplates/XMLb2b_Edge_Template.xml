@@ -1,0 +1,10 @@
+            <edging edgingType="#edgingType#">
+               <bevel>
+                  <type>#bevelType#</type>
+                  <position posType="#bevelPosType#">#bevm#</position>
+                  <grooveDepth>#gDepth#</grooveDepth>
+                  <grooveWidth>#gWidth#</grooveWidth>
+               </bevel>
+               <polish>#polish#</polish>
+               <chamfer position="#chamferPos#">#chamfer#</chamfer>
+            </edging>

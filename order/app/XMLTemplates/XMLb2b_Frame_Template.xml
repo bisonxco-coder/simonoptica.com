@@ -1,0 +1,19 @@
+            <frame quantity="1">
+   <material>#material#</material>
+   <shape>
+      <tracerData>
+         <tracerType>#tracerType#</tracerType>
+         <tracerVersion>#tracerVersion#</tracerVersion>
+         <binaries format="#tracerFormat#">#tracestring#</binaries>
+      </tracerData>
+   </shape>
+   #panto#
+   #ztilt#
+   #frcv#
+   <commercialCode>#frameNo#</commercialCode>
+   #boxDataR#
+   #boxDataL#
+   <distanceBetweenLenses>#distanceBetweenLenses#</distanceBetweenLenses>
+   <frameReferenceId>#freference#</frameReferenceId>
+   #drillholes#
+</frame>

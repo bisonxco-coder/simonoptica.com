@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[406],{1406:(e,n,u)=>{u.r(n),u.d(n,{default:()=>s});var r=u(9726);const t={},s=(0,u(6262).A)(t,[["render",function(e,n){return(0,r.uX)(),(0,r.CE)("div",null,"Page not found")}]])}}]);

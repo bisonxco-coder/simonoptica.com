@@ -1,0 +1,183 @@
+.static-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+
+    opacity: 0.4;
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    content: "";
+    pointer-events: none;
+    z-index: 4;
+}
+
+.icon{
+    opacity: 0.4;
+    right: 50px;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    content: "";
+    z-index: 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+    
+    &.small {
+        background-size: 18px 18px;
+    }
+
+    &.large {
+        background-size: 32px 32px;
+        width: 32px;
+        height: 32px;
+    }
+
+    &.opaque {
+        opacity: 1;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    &.position-start {
+        background-position: left;
+    }
+    &.position-end {
+        background-position: right;
+    }
+
+    &.rotated {
+        transform: rotate(180deg);
+    }
+
+    &.no-transition {
+        transition: 0s;
+    }
+
+    &.inverted-color {
+        opacity: 0.6;
+        filter: invert(100%);
+        
+        &:hover {
+            mix-blend-mode: screen;
+        }
+    }
+
+    &:hover {
+        opacity: 1;
+        transition: 0.15s;
+    }
+
+    &.no-hover{
+        &:hover{
+            opacity: 0.4;
+        }
+    }
+    
+    &.blue-hover {
+        &:hover{
+            filter: $icon-hover-color-filter;
+            opacity: 1;
+            // transition: 0.15s;
+        }
+    }
+
+    &.active {
+        opacity: 1;
+        filter: $icon-selected-color-filter !important;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 0.25rem rgba($selected-color, 0.25);
+    }
+}
+
+.user-icon-dot-container{
+    background-position: center;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.user-icon-dot {
+    @extend .user-icon-dot-container;
+    background-image: url("~/images/UserMenu.png");
+}
+
+.search-icon:before{
+    @extend .static-icon;
+    background-image: url("~/images/icons/browse.png");    
+}
+
+.calendar-icon:before{
+    @extend .static-icon;
+    background-image: url("~/images/icons/calendar.png");    
+}
+
+.logout-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/logout.png");    
+}
+
+.eye-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/eye.png");    
+}
+
+.more-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/more.png");    
+}
+
+.edit-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/edit.png");    
+}
+
+.copy-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/duplicate.png");    
+}
+
+.delete-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/delete.png");    
+}
+
+.print-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/print.png");    
+}
+
+.arrow-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/arrow.png");    
+}
+
+.add-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/add.png");    
+}
+
+.minimize-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/minimize.png");    
+}
+
+.close-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/close.png");    
+}
+
+.filter-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/filter.png");    
+}
+
+.spinner-icon{
+    @extend .icon;
+    background-image: url("~/images/icons/laden.gif");    
+}

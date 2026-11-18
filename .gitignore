@@ -1,0 +1,30 @@
+# Secrets and local database
+wp-config.php
+_import/
+*.sql
+order/.env
+order/oldweb-backup.zip
+order/order.zip
+order/vendor/
+order/node_modules/
+order/storage/logs/
+order/storage/framework/cache/
+order/storage/framework/sessions/
+order/storage/framework/views/
+
+# Media library (kept on disk, not in git)
+wp-content/uploads/
+
+# Caches, logs, and optimizer leftovers
+wp-content/cache/
+wp-content/litespeed/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/ewww/
+wp-content/updraft/
+wp-content/wflogs/
+*.log
+
+# File-manager thumbs
+.tmb/
+wp-content/.tmb/

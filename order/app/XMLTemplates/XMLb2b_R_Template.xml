@@ -1,0 +1,49 @@
+<lens quantity="1" side="RIGHT">
+   <commercialCode>#lenscodeR#</commercialCode>
+   <rxData>
+      <sphere>#sphereR#</sphere>
+      <cylinder>
+         <power>#cylinderR#</power>
+         <axis>#axisR#</axis>
+      </cylinder>
+      <addition>#additionR#</addition>
+      <prism>
+         <power>#prismR#</power>
+         <base>#baseR#</base>
+      </prism>
+      <prism>
+         <power>#prism2R#</power>
+         <base>#base2R#</base>
+      </prism>
+   </rxData>
+   #ctoR#
+   #tintR#
+   #coatingR#
+   #uvR#
+   <centration>
+      <monocularCentrationDistance reference="FAR">#pdR#</monocularCentrationDistance>
+      <height reference="FAR" referenceHeight="OVERBOX">#heightR#</height>
+   </centration>
+   <geometry>
+      <diameter>
+         <physical>#diam1R#</physical>
+         <optical>#diam2R#</optical>
+         <physicalVertical>#diam3R#</physicalVertical>
+         <elliptic>#ellipticR#</elliptic>
+      </diameter>
+      <decentration>
+         <horizontal>#decentrationXR#</horizontal>
+         <vertical>#decentrationYR#</vertical>
+      </decentration>
+      #thicknessRefR1#
+      #thicknessRefR2#
+      #thicknessRefR3#
+      <curve>
+         <baseCurve>#basecurveR#</baseCurve>
+      </curve>
+   </geometry>
+   <experimental>
+      #indTypeR#
+      #individualstringR#
+   </experimental>
+</lens>
